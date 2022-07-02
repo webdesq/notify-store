@@ -1,0 +1,13 @@
+name: 'Inform store'
+author: 'Niels Pruis'
+description: 'Inform the Webdesq store of a new version of your plugin'
+inputs:
+  branch:
+    description: 'The branch with the newest release'
+    required: false
+  token:
+    description: 'Enter a personal access token for private repositories'
+    required: false
+runs:
+  using: 'node16'
+  main: 'index.js'
