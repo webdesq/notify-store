@@ -1,6 +1,9 @@
 name: 'Inform store'
 author: 'Niels Pruis'
 description: 'Inform the Webdesq store of a new version of your plugin'
+branding:
+  icon: 'bell'
+  color: 'blue'
 inputs:
   branch:
     description: 'The branch with the newest release'
