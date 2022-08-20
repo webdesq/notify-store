@@ -12,7 +12,7 @@ token    | Set a secret personal access token for deploying private repositories
 ## Example usage
 
 ```
-uses: webdesq/notify-store@v1.0.0
+uses: webdesq/notify-store@v1.1.1
 with:
   branch: 'deploy'
   token: your token
